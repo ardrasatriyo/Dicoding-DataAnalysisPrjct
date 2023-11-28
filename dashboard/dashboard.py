@@ -7,8 +7,8 @@ st.title(
     "Bike Sharing Data Analysis"
 )
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("./dashboard/day.csv")
+hour_df = pd.read_csv("./dashboard/hour.csv")
 
 
 # Menggabungkan data season dan cnt
